@@ -14,6 +14,8 @@
 		513C069B1ED27A0D00C330E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513C06991ED27A0D00C330E3 /* LaunchScreen.storyboard */; };
 		513C06A61ED27A0D00C330E3 /* circlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C06A51ED27A0D00C330E3 /* circlesTests.swift */; };
 		513C06B11ED27A0D00C330E3 /* circlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C06B01ED27A0D00C330E3 /* circlesUITests.swift */; };
+		513C06BF1ED27ADF00C330E3 /* progressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C06BE1ED27ADF00C330E3 /* progressCircle.swift */; };
+		513C06C11ED27EF000C330E3 /* progressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C06C01ED27EF000C330E3 /* progressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		513C06AC1ED27A0D00C330E3 /* circlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		513C06B01ED27A0D00C330E3 /* circlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circlesUITests.swift; sourceTree = "<group>"; };
 		513C06B21ED27A0D00C330E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513C06BE1ED27ADF00C330E3 /* progressCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = progressCircle.swift; sourceTree = "<group>"; };
+		513C06C01ED27EF000C330E3 /* progressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = progressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		513C06841ED27A0D00C330E3 = {
 			isa = PBXGroup;
 			children = (
+				513C06BE1ED27ADF00C330E3 /* progressCircle.swift */,
+				513C06C01ED27EF000C330E3 /* progressBar.swift */,
 				513C068F1ED27A0D00C330E3 /* circles */,
 				513C06A41ED27A0D00C330E3 /* circlesTests */,
 				513C06AF1ED27A0D00C330E3 /* circlesUITests */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				513C06931ED27A0D00C330E3 /* ViewController.swift in Sources */,
+				513C06BF1ED27ADF00C330E3 /* progressCircle.swift in Sources */,
+				513C06C11ED27EF000C330E3 /* progressBar.swift in Sources */,
 				513C06911ED27A0D00C330E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
